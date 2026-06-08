@@ -4,7 +4,7 @@ public class Dog{
     static int tail=1;
     String color;
 
-
+//Constructor to initialize properties
 Dog(String name,String color){
 
     this.name=name;
