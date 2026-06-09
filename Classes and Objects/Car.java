@@ -30,9 +30,9 @@ public class Car {
 
     public void carInfo(){
 
-        //Here this keyword points to the current object
-        System.out.println(" Name = "+this.name + "\n Model = " + this.model 
-        + "\n year = " + this.year + "\n Engine = "+this.Engine); 
+      
+        System.out.println(" Name = "+name + "\n Model = " + model 
+        + "\n year = " + year + "\n Engine = "+Engine); 
     }
 
 
