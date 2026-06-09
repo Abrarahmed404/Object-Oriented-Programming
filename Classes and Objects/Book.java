@@ -14,8 +14,8 @@ public class Book {
 
  public void displayBook(){
 
-System.out.println("Title = "+this.title+"\nAuthor = "+this.author 
-+ "\nISBN = "+ this.ISBN  + "\nEdition = " + edition);
+System.out.println("Title = "+title+"\nAuthor = "+author 
++ "\nISBN = "+ ISBN  + "\nEdition = " + edition);
  }
  
 
