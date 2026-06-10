@@ -98,6 +98,32 @@ public class Student {
         }
             
    }
+   
+   public boolean isHonourStudent(){
+        if(gpa >= 3.5)
+        return true;
+        else
+        return false;
+   }
+   
+   public void updateGpa(double newgpa){
+        
+        if(newgpa>=0.0 && newgpa <= 4.0)
+        gpa=newgpa;
+        else
+        System.out.println("Not Valid");
+   }
+   
+   public String getStatus(){
+        if(gpa >= 3.75)
+          return "Excelent";
+        else if(gpa >=3.3)
+          return "Good";
+        else if(gpa >=2.8)
+          return "Average";
+        else
+          return "Need improvement";  
+   }     
         
         
         
