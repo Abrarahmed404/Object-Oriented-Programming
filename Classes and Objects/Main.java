@@ -52,6 +52,12 @@ public class Main{
       Student s2 = new Student("Qadir", 282077, 3.75);
         
         
-           s2.displayInfo();
-    }
+            s2.displayInfo();
+            s2.getGradeLetter();
+        
+            System.out.println("isHonourStudent: " + s2.isHonourStudent());
+            System.out.println("Status: " + s2.getStatus());
+            System.out.println("GPA: " + s2.getGpa());
+       
+       }
 }
