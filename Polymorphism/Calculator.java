@@ -52,6 +52,21 @@ public class Calculator{
 	      result =result + (a+b);
 	      return (int)result;
 	    }
+
+
+	 //taking two inputs as int
+	    public int multiply(int a, int b){
+	       System.out.println("Multiply method 1");
+	       result =result + (a * b);
+	       return (int)result;
+	    }
+	    
+	    //taking two  inputs as double
+	    public double multiply(double a, double b){
+	      System.out.println("Multiply method 2");
+	      result =result + (a*b);
+	     return result;
+	    }
 	    
 	    
 }	    
