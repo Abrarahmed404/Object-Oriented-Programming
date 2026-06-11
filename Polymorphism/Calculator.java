@@ -67,6 +67,13 @@ public class Calculator{
 	      result =result + (a*b);
 	     return result;
 	    }
-	    
+
+	//Object as parameter
+	public boolean compareCalculator(Calculator other){
+        if(this.result > other.result)
+         return true;
+         else
+         return false;
+      }
 	    
 }	    
