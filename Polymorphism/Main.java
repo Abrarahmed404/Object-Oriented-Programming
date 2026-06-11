@@ -29,9 +29,11 @@ public class Main{
         c2.resetResult();
    
         System.out.println("Current Result = " + c2.getResult());
+        
+        c2.multiply(7, 10.4);
     
+        System.out.println(c2.compareCalculator(c1));
     
     }
     
-    }
 }
