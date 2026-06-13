@@ -65,15 +65,22 @@ public class Calculator{
 	    public double multiply(double a, double b){
 	      System.out.println("Multiply method 2");
 	      result =result + (a*b);
-	     return result;
+	      return result;
 	    }
 
-	//Object as parameter
-	public boolean compareCalculator(Calculator other){
-        if(this.result > other.result)
-         return true;
-         else
-         return false;
-      }
+		//Object as parameter
+		public boolean compareCalculator(Calculator other){
+     	   	if(this.result > other.result)
+     	   	 return true;
+        	else
+        	 return false;
+    	}
+
+		//add result of two calculators and return a new object
+		public Calculator addResult(Calculator other){
+         	double newResult= result + other.result;
+         	return new Calculator(newResult);
+  	    }
+	
 	    
 }	    
