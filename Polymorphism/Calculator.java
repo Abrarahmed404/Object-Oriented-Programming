@@ -81,6 +81,9 @@ public class Calculator{
          	double newResult= result + other.result;
          	return new Calculator(newResult);
   	    }
-	
-	    
+
+		//Copying the same calculator
+	    public Calculator copyCalculator(){
+       		return new Calculator(this.result);
+        }
 }	    
