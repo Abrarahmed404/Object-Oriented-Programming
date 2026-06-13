@@ -32,7 +32,15 @@ public class Main{
         
         c2.multiply(7, 10.4);
     
-        System.out.println(c2.compareCalculator(c1));
+        System.out.println("c2 has greater result: " + c2.compareCalculator(c1));  //compare method is called here
+        
+        System.out.println("Current Result of c1 = " + c1.getResult());
+    
+        System.out.println("Current Result of c2 = " + c2.getResult());
+    
+        Calculator c3 = c1.addResult(c2);    //addResult method is called here
+    
+        System.out.println("Current Result of c3 = " + c3.getResult());
     
     }
     
