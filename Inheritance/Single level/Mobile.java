@@ -3,18 +3,23 @@ public class Mobile extends Device{
     int camera;
     
     Mobile(String brand,int screenSize String operatingSystem, int camera){
+
+        //Super keyword calls the constructor of Parent class
       super(brand, screenSize);
       this,operatingSystem;
       this.camera = camera;
     
     }
-    
-    
+
+
+    //Methods of parent class are bieng Override 
+    @Override
     public void turnOn(){      
     System.out.println("Turning ONN........");
     }
     
-    public void turnOff(){
+    @Override
+    public void turnOf(){
         System.out.println("Mobile is Turning OFF.......");
     }
     
