@@ -3,6 +3,8 @@ public class Dog extends Animal{
     String color;
     String bread;
 
+
+    //Parametarized Constructor
     Dog(String name, String color, String bread,int legs, double hieght,boolean hasTail){
     super(legs, hieght, hasTail);
     
@@ -11,8 +13,13 @@ public class Dog extends Animal{
     this.bread = bread;
     
     }
+
+
+    //Default Constructor
+     Dog(){
+    }
     
-    @Override
+    @Override          //This is the anotation it tells you if methode is bieng override or not (Optional)
     public void eat(){
     System.out.println("eating bone...");
     }
