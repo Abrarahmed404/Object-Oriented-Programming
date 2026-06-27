@@ -9,7 +9,7 @@ public class Cow extends Animal{
       this.bread = bread;
     }
     
-    @Override
+    @Override                  //This is the anotation it tells you if methode is bieng override or not (Optional)
     public void eat(){
       System.out.println("eating grass...");
     }  
