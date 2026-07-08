@@ -2,6 +2,9 @@ import java.io.*;
 
   public class Files{
 
+
+    //While creating file we can get exception 
+    //here exception will be handled by caller of main method "JVM"
       public static void main(String[] arg) throws IOException{
         
         File f = new File("/home/abrar-ahmed/Desktop/nmn.txt");
@@ -13,10 +16,6 @@ import java.io.*;
             System.out.println("File Already Exists");
         }
         
-        
-      
-      
-
 
       }
       
